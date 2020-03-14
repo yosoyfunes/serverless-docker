@@ -1,5 +1,7 @@
 FROM python:3.7.7-buster
 
+LABEL maintainer="Matias Anoniz <matiasanoniz@gmail.com>"
+
 # update dependencies
 RUN apt-get update -y
 
