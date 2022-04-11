@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-docker run --rm -ti -v $(pwd):/app -v ~/.aws/:/root/.aws -w /app summasolutions/serverless bash
+docker run --rm -ti -v $(pwd):/app -v ~/.aws/:/root/.aws -w /app yosoyfunes/serverless bash
 ```
 
 ## Features
@@ -15,11 +15,11 @@ docker run --rm -ti -v $(pwd):/app -v ~/.aws/:/root/.aws -w /app summasolutions/
 ## Build image
 
 ```
-docker build --no-cache --tag summasolutions/serverless .
+docker build --no-cache --tag yosoyfunes/serverless .
 ```
 
 ## Update local image
 
 ```
-docker pull summasolutions/serverless:latest
+docker pull yosoyfunes/serverless:latest
 ```
